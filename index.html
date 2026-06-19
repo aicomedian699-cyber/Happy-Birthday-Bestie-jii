@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Sherryl ❤️</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#ff9a9e,#fad0c4);
+    overflow-x:hidden;
+    color:white;
+}
+
+section{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:4rem;
+    animation:glow 2s infinite alternate;
+}
+
+.hero p{
+    margin-top:15px;
+    font-size:1.2rem;
+}
+
+.btn{
+    margin-top:30px;
+    padding:15px 35px;
+    border:none;
+    border-radius:50px;
+    background:white;
+    color:#ff4f81;
+    font-size:1rem;
+    cursor:pointer;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:scale(1.1);
+}
+
+@keyframes glow{
+    from{ text-shadow:0 0 10px white; }
+    to{ text-shadow:0 0 30px white,0 0 50px white; }
+}
+
+.card{
+    max-width:700px;
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(10px);
+    padding:30px;
+    border-radius:20px;
+}
+
+.bestie-card{
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(10px);
+    padding:20px;
+    margin:15px auto;
+    max-width:700px;
+    border-radius:20px;
+    font-size:1.1rem;
+    transition:0.3s;
+}
+
+.bestie-card:hover{
+    transform:translateY(-5px) scale(1.02);
+}
+
+.ending-message{
+    margin-top:25px;
+    font-size:1.2rem;
+    font-weight:bold;
+}
+
+.progress{
+    width:80%;
+    height:30px;
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.fill{
+    width:100%;
+    height:100%;
+    background:#ff4f81;
+    animation:fillBar 3s ease-in-out;
+}
+
+@keyframes fillBar{
+    from{width:0;}
+    to{width:100%;}
+}
+
+.balloon{
+    position:fixed;
+    bottom:-100px;
+    width:40px;
+    height:50px;
+    border-radius:50%;
+    animation:float 10s linear infinite;
+    opacity:0.8;
+}
+
+@keyframes float{
+    from{
+        transform:translateY(0);
+    }
+    to{
+        transform:translateY(-120vh);
+    }
+}
+
+footer{
+    padding:40px;
+    text-align:center;
+    font-size:1.2rem;
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+    <h1>🎂 Happy Birthday Sherryl 🎂</h1>
+    <p>A special surprise made just for you ❤️</p>
+
+    <button class="btn"
+    onclick="document.getElementById('message').scrollIntoView({behavior:'smooth'})">
+        Open Your Gift 🎁
+    </button>
+</section>
+
+<section id="message">
+    <div class="card">
+        <h2>💖 Dear Sherryl 💖</h2>
+        <br>
+
+        <p>
+        Happy Birthday to the most amazing bestie! 🎉❤️<br><br>
+
+        Thank you for all the laughter, happiness, and positivity you bring into my life.
+        You make ordinary days feel special and difficult days feel easier.
+
+        I hope your birthday is filled with love, smiles, cake, gifts, and everything you've been wishing for. 🎂✨
+
+        <br><br>
+
+        Never stop being the wonderful person you are. 🌸💖
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2>🌟 Why You're Special 🌟</h2>
+    <br>
+
+    <div class="card">
+        ❤️ You always support me.<br><br>
+
+        😂 You make me laugh.<br><br>
+
+        ✨ You create unforgettable moments.<br><br>
+
+        🌸 You're kind and caring.<br><br>
+
+        🎉 Life is better with you in it.
+    </div>
+</section>
+
+<section>
+    <h2>💖 Why You're The Best Bestie 💖</h2>
+    <br>
+
+    <div class="bestie-card">
+        🌸 You always know how to make my day better, even without trying.
+    </div>
+
+    <div class="bestie-card">
+        😂 Your laugh is contagious and every conversation with you becomes special.
+    </div>
+
+    <div class="bestie-card">
+        ✨ You bring positivity, kindness, and happiness wherever you go.
+    </div>
+
+    <div class="bestie-card">
+        🎂 You deserve all the love, success, happiness, and cake in the world.
+    </div>
+
+    <div class="bestie-card">
+        💝 Thank you for being the amazing person and best friend that you are.
+    </div>
+
+    <div class="bestie-card">
+        🌟 No matter what happens, you'll always be one of the most important people in my life.
+    </div>
+
+    <p class="ending-message">
+        ❤️ Happy Birthday Sherryl ❤️<br>
+        May your smile never fade, your dreams come true, and your heart always stay happy. 🎉✨
+    </p>
+</section>
+
+<section>
+    <h2>❤️ Friendship Meter ❤️</h2>
+    <br>
+
+    <div class="progress">
+        <div class="fill"></div>
+    </div>
+
+    <br>
+
+    <p>100% Best Friends Forever 🚀</p>
+</section>
+
+<section>
+    <div class="card">
+        <h2>🎊 Final Message 🎊</h2>
+        <br>
+
+        <p>
+        May your year be full of happiness, success, good health, and beautiful memories.
+
+        <br><br>
+
+        Thank you for being the best bestie anyone could ask for. 💖
+
+        <br><br>
+
+        🎂 HAPPY BIRTHDAY SHERRYL 🎂
+        </p>
+    </div>
+</section>
+
+<footer>
+    Made with ❤️ for Sherryl
+</footer>
+
+<script>
+for(let i=0;i<20;i++){
+    let balloon=document.createElement("div");
+    balloon.classList.add("balloon");
+
+    balloon.style.left=Math.random()*100+"vw";
+    balloon.style.background=
+    `hsl(${Math.random()*360},80%,70%)`;
+
+    balloon.style.animationDuration=
+    (5+Math.random()*10)+"s";
+
+    document.body.appendChild(balloon);
+}
+</script>
+
+</body>
+</html>
